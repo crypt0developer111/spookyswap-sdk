@@ -84,5 +84,19 @@ export const WETH = {
     18,
     'WFTM',
     'Wrapped FTM'
-  )
+  ),
+  [ChainId.CRONOSTESTNET]: new Token(
+    ChainId.CRONOSTESTNET,
+    '0x873c905681Fb587cc12a29DA5CD3c447bE61F146',
+    18,
+    'WFTM',
+    'Wrapped FTM'
+  ),
+  [ChainId.CRONOSMAINNET]: new Token(
+    ChainId.CRONOSMAINNET,
+    '0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23',
+    18,
+    'WFTM',
+    'Wrapped FTM'
+  ),
 }
